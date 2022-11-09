@@ -7,7 +7,7 @@ import {
   goToPreviousVideo,
 } from "reactjs-video-playlist-player";
 
-import "../styles/videoplayer.css";
+import "../styles/video-player.css";
 
 import AdsData from "../AdsData";
 
