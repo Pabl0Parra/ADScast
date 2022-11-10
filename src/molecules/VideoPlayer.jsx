@@ -7,7 +7,7 @@ import {
   goToPreviousVideo,
 } from "reactjs-video-playlist-player";
 
-import "../styles/videoplayer.css";
+import "../styles/video-player.css";
 
 import AdsData from "../AdsData";
 
@@ -31,11 +31,12 @@ function VideoPlayer() {
   return (
     <div className="App">
       <h3 id="title">
-        <span>Create a simple ads list from a json object</span> 🎥
+        <p>Create a simple ads list from a json object 🎥</p>
       </h3>
       <div>
         <Playlist playlistParams={params} />
       </div>
+      <hr></hr>
     </div>
   );
 }

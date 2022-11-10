@@ -39,6 +39,12 @@ button {
   cursor: pointer;
   opacity: 0.7;
 }
+button:hover {
+  background-color: #f43893;
+  color: black;
+  border: none;
+}
+
 .container {
   max-width: 300px;
   margin: 100px auto 40px;
@@ -51,4 +57,34 @@ button {
 .container li {
   padding: 10px;
   cursor: pointer;
+}
+
+// input file button
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-input__label {
+  margin-top: 2%;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 12px;
+  background-color: #333333;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.file-input__label svg {
+  height: 16px;
+  margin-right: 4px;
 }

@@ -1,0 +1,26 @@
+.video2-container-styles {
+  width: 87%;
+  margin: 10% auto;
+}
+
+.video-styles {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.btn-input-file {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+hr {
+  color: white;
+}
+
+@media screen and (max-width: 549px) {
+  .video-container-styles {
+    width: 100%;
+  }
+}
