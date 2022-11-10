@@ -9,6 +9,16 @@
   object-fit: cover;
 }
 
+.btn-input-file {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+hr {
+  color: white;
+}
+
 @media screen and (max-width: 549px) {
   .video-container-styles {
     width: 100%;

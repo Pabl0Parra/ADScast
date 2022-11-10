@@ -7,7 +7,7 @@ const InputFile = () => {
         type="file"
         name="file-input"
         id="input"
-        accept="video/*"
+        // accept="video/*"
         className="file-input__input"
       />
       <label className="file-input__label" htmlFor="input">
